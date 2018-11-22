@@ -9,6 +9,5 @@ for var in {0..15}
 do
 	./setbits.sh "$var"
 	sleep 1
+	echo "$var"
 done
-
-echo All done
